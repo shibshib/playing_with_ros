@@ -41,7 +41,7 @@ class CloudManipulations:
 		"""
 		return points + (offset,)	
 
-	##convert a 4xn scipy matrix (x y z 1) to a PointCloud 
+	##convert a 4xn matrix (x y z 1) to a PointCloud 
 	def mat_to_point_cloud(self, mat, frame_id):
 		"""
 		Function to convert a given matrix to a simple pointcloud. 
